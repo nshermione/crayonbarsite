@@ -1,0 +1,27 @@
+
+.center {
+    margin: 0px auto;
+    width: 850px;
+    margin-top: 40px;
+}
+
+.gplogo {
+    width: 150px;
+}
+
+.actions {
+    width: 270px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+body {
+    background: deepskyblue;
+}
+
+.title {
+    width: 256px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
