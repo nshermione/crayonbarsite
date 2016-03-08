@@ -4,16 +4,27 @@
 {% block content %}
 
 <div class="center">
-  <img class="title" src="{% static 'title.png' %}" />
-  <img src="{% static 'phone.png' %}" style="width: 512px;" />
 
-<div class="actions">
+    <img class="title" src="{% static 'title.png' %}" />
+    <img src="{% static 'phone.png' %}" style="width: 512px;" />
+
+    <div class="actions">
       <h1 class="headline">Download now</h1>
 
       <a href="https://play.google.com/store/apps/details?id=com.gamestop.hellococos">
         <img class="gplogo" src="{% static 'icon-google-play.png' %}" />
       </a>
-  </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="/privacy">Privacy</a></li>
+            <li><a href="/terms">Term</a></li>
+            <li><a href="mailto:crayonbargameapp@gmail.com?Subject=Feedback" target="_top">Feedback</a></li>
+            <li><a href="https://www.facebook.com/crayonbargame">Support</a></li>
+        </ul>
+    </div>
+
 </div>
 
 {% endblock %}

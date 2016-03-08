@@ -8,6 +8,11 @@ def index(request):
     # return HttpResponse('Hello from Python!')
     return render(request, 'index.html')
 
+def privacy(request):
+    return render(request, 'privacypolicy.htm')
+
+def terms(request):
+    return render(request, 'terms.html')
 
 def db(request):
 
